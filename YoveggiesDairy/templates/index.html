@@ -1,0 +1,130 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <title>Yoveggies Dairy | No Suger All Organic</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="brand-logo">
+      <h1>Yov<span class="color-grey">eggies</span></h1>
+      <p>World Class Dairy Products</p>
+    </div>
+    <nav class="main-navbar">
+      <div class="products-menu">
+        <a href="#">Products<i class="fa fa-sort-down"></i></a>
+        <div class="dropdown-menu">
+          <a href="#">Yoveggies Special</a>
+          <a href="#">Milk</a>
+          <a href="#">Fat Milk</a>
+          <a href="#">Milkshake</a>
+          <a href="#">Yougert</a>
+          <a href="#">Cream</a>
+          <a href="#">Icecream</a>
+        </div>
+      </div>
+      <a href="#">Contact Us</a>
+      <a href="#">About</a>
+    </nav>
+    <div class="header-options">
+      <span class="search-panel">
+        <a href="#" class="user-panel-control"><i class="fa fa-search"></i></a>
+      </span>
+      <span class="user-panel">
+        <a href="" class="user-panel-control"><i class="fa fa-user"></i></a>
+      </span>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="main-slideshow">
+      <div class="slideshow">
+        <img src="{% static 'img/slideshow01.jpg' %}" alt="Slideshow Picture 01" />
+        <img src="{% static 'img/slideshow02.jpg' %}" alt="Slideshow Picture 02" />
+      </div>
+      <div>
+        <span class="slideshow-arrow left-arrow">&#10094;</span>
+        <span class="slideshow-arrow right-arrow">&#10095;</span>
+      </div>
+      <div class="slideshow-bubbles">
+        <span class="slideshow-bubble"></span>
+        <span class="slideshow-bubble"></span>
+        <span class="slideshow-bubble"></span>
+      </div>
+    </section>
+    <section class="products-showcase">
+      <div class="title-wrapper">
+        <h2>Yove<span class="color-grey">ggies</span> Milk Products</h2>
+      </div>
+      <div class="products-box">
+        <div class="card">
+          <img src="{% static 'img/product-002.png' %}" alt="Product Picture 001" />
+        </div>
+        <div class="card">
+          <img src="{% static 'img/product-003.png' %}" alt="Product Picture 002" />
+        </div>
+        <div class="card">
+          <img src="{% static 'img/product-005.png' %}" alt="Product Picture 003" />
+        </div>
+        <div class="card">
+          <img src="{% static 'img/product-001.png' %}" alt="Product Picture 004" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="title-wrapper">
+        <h2>Yoveggies Top Seller</h2>
+      </div>
+      <div class="topseller">
+        <img src="{% static 'img/topseller.png' %}" alt="Yoveggies Top Seller Person">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem harum dolore necessitatibus unde animi, odio ipsa asperiores quasi eligendi atque aliquid ratione placeat et id cupiditate minima rem quibusdam! Sed laudantium ea maxime dolorum at iure. Illum, iusto. Illo, laborum.</p>
+      </div>
+    </section>
+    <section>
+      <div class="title-wrapper">
+        <h2>Things We Proud Of</h2>
+      </div>
+      <div class="achivements">
+        <div>
+          <img src="{% static 'img/achivement-01.png' %}" alt="Achivements Logo 01">
+          <p>2018</p>
+        </div>
+        <div>
+          <img src="{% static 'img/achivement-02.png' %}" alt="Achivements Logo 02">
+          <p>2019</p>
+        </div>
+        <div>
+          <img src="{% static 'img/achivement-03.png' %}" alt="Achivements Logo 03">
+          <p>2020</p>
+        </div>
+        <div>
+          <img src="{% static 'img/achivement-04.png' %}" alt="Achivements Logo 04">
+          <p>2022</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="newsletter">
+      <h3>Be Informed Before Others</h3>
+      <input type="email" placeholder="Enter Your Email Address..." name="newsletter_input" id="newsletter_input">
+      <input type="button" value="Register">
+    </div>
+    <div class="contact-info">
+      <span class="social-links"></span>
+      <span class="phone-number">+98-998457854589<i class="fa fa-phone"></i></span><br />
+      <span class="address">Near Southern Malaniaeis Department<i class="fa fa-home"></i></span>
+    </div>
+  </footer>
+  <script src="{% static 'js/slideshow.js' %}" defer></script>
+</body>
+
+</html>

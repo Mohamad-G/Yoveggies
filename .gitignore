@@ -1,0 +1,15 @@
+# Local virtual envirement
+**/venv
+
+# IE workspace settings
+**/.vscode
+
+# Python compilation files
+**.pyc
+**/__pycache__
+
+# Database compilation files
+**/migrations
+
+# Local database
+db.sqlite3
